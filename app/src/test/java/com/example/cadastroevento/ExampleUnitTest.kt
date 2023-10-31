@@ -1,4 +1,4 @@
-package com.example.telainicial
+package com.example.cadastroevento
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.telainicial
+package com.example.cadastroevento
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
