@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/log" />
 
     <EditText
-        android:id="@+id/Email"
+        android:id="@+id/emailEditText"
         android:layout_width="274dp"
         android:layout_height="48dp"
         android:background="@drawable/redondo"
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.401" />
 
     <EditText
-        android:id="@+id/senha"
+        android:id="@+id/senhaEditText"
         android:layout_width="274dp"
         android:layout_height="48dp"
         android:background="@drawable/redondo"
@@ -47,10 +47,10 @@
         app:layout_constraintBottom_toTopOf="@+id/botao"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Email" />
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
 
     <Button
-        android:id="@+id/botao"
+        android:id="@+id/loginButton"
         android:layout_width="275dp"
         android:layout_height="52dp"
         android:backgroundTint="#61BFD4"
@@ -67,11 +67,11 @@
         android:layout_height="wrap_content"
         android:text="Mostrar"
         android:textColor="#61BFD4"
-        app:layout_constraintBottom_toBottomOf="@+id/senha"
-        app:layout_constraintEnd_toEndOf="@+id/senha"
+        app:layout_constraintBottom_toBottomOf="@+id/senhaEditText"
+        app:layout_constraintEnd_toEndOf="@+id/senhaEditText"
         app:layout_constraintHorizontal_bias="0.941"
-        app:layout_constraintStart_toStartOf="@+id/senha"
-        app:layout_constraintTop_toTopOf="@+id/senha"
+        app:layout_constraintStart_toStartOf="@+id/senhaEditText"
+        app:layout_constraintTop_toTopOf="@+id/senhaEditText"
         app:layout_constraintVertical_bias="0.555" />
 
     <TextView
@@ -95,7 +95,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botao"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton"
+        app:layout_constraintVertical_bias="0.276" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="teste"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton"
         app:layout_constraintVertical_bias="0.276" />
 
     <CheckBox
