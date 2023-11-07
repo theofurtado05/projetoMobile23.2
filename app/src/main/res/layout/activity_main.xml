@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="#0098a6"
     android:backgroundTint="#0098a6"
+    android:visibility="visible"
     tools:context=".MainActivity">
 
     <ImageView
@@ -100,15 +101,17 @@
 
     <TextView
         android:id="@+id/resultTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="teste"
+        android:layout_width="7dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="64dp"
+        android:text="oii"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/loginButton"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginButton"
-        app:layout_constraintVertical_bias="0.276" />
+        app:layout_constraintTop_toTopOf="@+id/senhaEditText"
+        app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
         android:id="@+id/check"
