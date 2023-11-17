@@ -22,9 +22,15 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name="com.example.telainicial.TelaCadastro"
-            android:exported="false" />
+        <activity android:name=".TelaRedefiniSenha" />
+
+
+        <activity android:name=".TelaCadastro" />
+
+
+<!--        <activity-->
+<!--            android:name="com.example.telainicial.TelaCadastro"-->
+<!--            android:exported="false" />-->
 
         <meta-data
             android:name="preloaded_fonts"
