@@ -30,6 +30,14 @@ class MainActivity : AppCompatActivity() {
             if (inputEmail == user.email && inputSenha == user.senha) {
                 resultTextView.text = "Login bem-sucedido!"
                 Toast.makeText(this, "Login bem-sucedido!", Toast.LENGTH_SHORT).show()
+
+                val intent = Intent(this, Reuniao::class.java)
+
+                // Adicione quaisquer extras à Intent, se necessário
+                // intent.putExtra("chave", valor)
+
+                // Inicie a nova atividade
+                startActivity(intent)
             } else {
                 resultTextView.text = "Email ou senha incorretos. Tente novamente."
                 Toast.makeText(

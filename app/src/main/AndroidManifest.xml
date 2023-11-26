@@ -27,8 +27,15 @@
 
         <activity android:name=".TelaCadastro" />
 
+<!--        <activity android:name=".reun" />-->
 
-<!--        <activity-->
+                <activity
+                    android:name="com.example.telainicial.Reuniao"
+                    android:exported="false" />
+
+
+
+        <!--        <activity-->
 <!--            android:name="com.example.telainicial.TelaCadastro"-->
 <!--            android:exported="false" />-->
 
