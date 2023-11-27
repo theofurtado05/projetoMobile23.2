@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.NavBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="#FFFFFF"
+        android:elevation="0dp">
+
+        <!-- Botão "Início" -->
+        <ImageButton
+            android:id="@+id/btHoje"
+            android:layout_width="17dp"
+            android:layout_height="73dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:contentDescription="Ir para tela hoje"
+            android:scaleType="center"
+            android:src="@drawable/hoje"/>
+
+        <ImageButton
+            android:id="@+id/btVisualizacao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="Ir para calendário"
+            android:background="@color/white"
+            android:scaleType="center"
+            android:src="@drawable/calendario"/>
+
+        <ImageButton
+            android:id="@+id/btAdd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:contentDescription="Ir para Adicionar evento"
+            android:scaleType="center"
+            android:src="@drawable/adiciona" />
+
+        <ImageButton
+            android:id="@+id/btBuscar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:contentDescription="Buscar"
+            android:scaleType="center"
+            android:src="@drawable/pesquisar" />
+
+        <ImageButton
+            android:id="@+id/btConfig"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:contentDescription="Configurações"
+            android:scaleType="centerInside"
+            android:src="@drawable/configura" />
+    </LinearLayout>
+
+</FrameLayout>
