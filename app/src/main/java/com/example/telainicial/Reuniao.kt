@@ -5,11 +5,19 @@ import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.Meeting
 import com.example.myapplication.MeetingAdapter
+import com.example.telainicial.Fragments.NavBar
 
 class Reuniao : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.reuniao_main)
+
+        if(savedInstanceState == null){
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.menu_container, NavBar())
+                .commit()
+
+        }
 
         val meetings = listOf(
             Meeting("Reunião 1", "10/11/2023", "14:00"),
