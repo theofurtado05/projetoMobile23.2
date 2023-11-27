@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import com.example.myapplication.Meeting
+import com.example.telainicial.AdicionarActivity
 import com.example.telainicial.R
 import com.example.telainicial.Reuniao
 
@@ -44,6 +45,13 @@ class NavBar : Fragment() {
 
         btVisualizacao.setOnClickListener {
             val intent = Intent(requireActivity(), Meeting::class.java)
+            startActivity(intent)
+
+        }
+
+
+        btAdicionar.setOnClickListener {
+            val intent = Intent(requireActivity(), AdicionarActivity::class.java)
             startActivity(intent)
 
         }
