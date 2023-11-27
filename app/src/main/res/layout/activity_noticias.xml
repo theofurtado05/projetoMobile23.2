@@ -143,18 +143,19 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.579"
-        tools:layout_editor_absoluteX="0dp"></TextView>
+        app:layout_constraintVertical_bias="0.585"
+        tools:layout_editor_absoluteX="-1dp"></TextView>
 
     <ImageView
-        android:layout_width="350dp"
-        android:layout_height="228dp"
-        android:src="@drawable/dados"
+        android:layout_width="340dp"
+        android:layout_height="193dp"
+        android:src="@drawable/mapa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3">
-    </ImageView>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828"></ImageView>
 
     <TextView
         android:layout_width="147dp"
@@ -219,6 +220,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView5"
         app:layout_constraintVertical_bias="0.8"></TextView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
