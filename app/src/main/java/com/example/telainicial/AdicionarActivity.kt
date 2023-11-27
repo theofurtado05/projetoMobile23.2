@@ -2,11 +2,11 @@ package com.example.telainicial
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.telainicial.R
 
-class Governaca : AppCompatActivity() {
+class AdicionarActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_governaca)
+        setContentView(R.layout.adicionar_reuniao)
     }
 }
-

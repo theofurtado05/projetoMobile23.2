@@ -13,9 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TelaInicial"
         tools:targetApi="31">
-        <activity
-            android:name=".Fragment.Frag"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".Fragment"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".SaiuNaImprensa"
             android:exported="false" />
@@ -26,6 +26,9 @@
             android:name=".composicaoAcionaria"
             android:exported="false" />
         <activity
+            android:name=".AdicionarActivity"
+            android:exported="false" />
+        <activity
             android:name=".Principioss"
             android:exported="false" />
         <activity
@@ -34,12 +37,18 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.telainicial.Reuniao"
+            android:exported="false" />
+
         <activity android:name=".TelaRedefiniSenha" />
         <activity android:name=".TelaCadastro" /> <!-- <activity -->
         <!-- android:name="com.example.telainicial.TelaCadastro" -->
