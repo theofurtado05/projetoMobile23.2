@@ -39,6 +39,7 @@
             android:exported="true">
 
 
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,6 +52,14 @@
 
         <activity android:name=".TelaRedefiniSenha" />
         <activity android:name=".TelaCadastro" /> <!-- <activity -->
+
+        <activity
+            android:name=".Noticias"
+            android:exported="true"/>
+
+        <activity
+            android:name=".Tela_config"
+            android:exported="true"/>
         <!-- android:name="com.example.telainicial.TelaCadastro" -->
         <!-- android:exported="false" /> -->
         <meta-data

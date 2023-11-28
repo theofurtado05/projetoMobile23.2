@@ -10,8 +10,11 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageButton
 import com.example.telainicial.AdicionarActivity
+import com.example.telainicial.Noticias
 //import com.example.myapplication.Meeting
 import com.example.telainicial.R
+import com.example.telainicial.Tela_config
+
 //import com.example.telainicial.Reuniao
 
 // TODO: Rename parameter arguments, choose names that match
@@ -39,9 +42,9 @@ class NavBar : Fragment() {
         val btConfiguracoes = view.findViewById<ImageButton>(R.id.btConfig)
 
         btHoje.setOnClickListener {
-            // Ao clicar em "Início", inicie a MainActivity
-            //val intent = Intent(requireActivity(), Reuniao::class.java)
-            //startActivity(intent)
+//             Ao clicar em "Início", inicie a MainActivity
+            val intent = Intent(requireActivity(), Noticias::class.java)
+            startActivity(intent)
         }
 
         btVisualizacao.setOnClickListener {
@@ -51,6 +54,12 @@ class NavBar : Fragment() {
 
         btAdicionar.setOnClickListener {
             val intent = Intent(requireActivity(), AdicionarActivity::class.java)
+            startActivity(intent)
+
+        }
+
+        btConfiguracoes.setOnClickListener {
+            val intent = Intent(requireActivity(), Tela_config::class.java)
             startActivity(intent)
 
         }
