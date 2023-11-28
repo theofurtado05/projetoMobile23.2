@@ -26,9 +26,6 @@ O projeto nasceu de uma parceria da empresa Norte Energia em Belo Monte e a Facu
 - Theo Furtado
 - Vitor Lobianco
 
-## Prototipação
-
-O protótipo do aplicativo foi desenvolvido no Figma e está disponível no [link](https://www.figma.com/file/pE5kwOBHfYBDix9rfGEaFF/Prototipo-versao-1?type=design&node-id=0-1&mode=design&t=gXujiauYCYmy3Oyq-0) .
 
 ## Requisitos
 
@@ -76,6 +73,11 @@ Os requisitos para o aplicativo são divididos em dois grupos: funcionalidades p
 - **Compatibilidade**
     - Suporte para versões recentes do iOS e Android.
 
+## Prototipação
+
+O protótipo do aplicativo foi desenvolvido no Figma e está disponível no [link](https://www.figma.com/file/pE5kwOBHfYBDix9rfGEaFF/Prototipo-versao-1?type=design&node-id=0-1&mode=design&t=gXujiauYCYmy3Oyq-0).
+
+
 ## **Agradecimentos**
 
-Agradecemos à empresa Norte Energia em Belo Monte e à Faculdade Ibmec pela oportunidade de desenvolver este projeto.
+Agradecemos à empresa Norte Energia em Belo Monte e à Ibmec pela oportunidade de desenvolver este projeto.
