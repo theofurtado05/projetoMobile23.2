@@ -4,7 +4,7 @@
 
 Este documento está organizado da seguinte forma:
 
-- **Introdução:[##Introdução]** apresenta os objetivos e requisitos do aplicativo.
+- **[Introdução:](## Introdução)** apresenta os objetivos e requisitos do aplicativo.
 - **Participantes:[##Participantes]** lista os participantes do projeto.
 - **Prototipação:[##Prototipação]** fornece o link para o protótipo do projeto.
 - **Requisitos:[##Requisitos]** descreve as funcionalidades principais e não funcionais do aplicativo.
